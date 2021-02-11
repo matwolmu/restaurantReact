@@ -1,0 +1,219 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1
+}
+
+h5 { font-family: 'Garamond', arial, serif; line-height: 1.25; margin: 0 0 10px; font-size: 20px; font-weight: bold; }
+
+.singleDish{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+
+.homeView{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#basket{
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 50px;
+  z-index: 1;
+}
+
+.collection-item{
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+}
+.basketItemButtonsWrapper{
+  display: flex;
+  align-items: center;
+}
+
+#checkoutButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#floatingButton {
+  position: fixed;
+  right: 30px;
+  z-index: 99;
+}
+
+.floatingButton_TOP {
+  top: 30px;
+}
+.floatingButton_Bottom {
+  bottom: 20px;
+}
+
+
+
+
+
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+#categoryMenu {
+  position: -webkit-sticky; /* Safari & IE */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin: 10px 0px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categoryMenuItem{
+  padding: 5px;
+}
+
+
+
+.wrapToCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+#checkoutOrderRecapWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.somePaddingTOP{
+  padding: 20px 0;
+}
+.someMorePaddingTOP{
+  padding: 40px 0;
+}
+.somePaddingSIDE{
+  padding: 0 20px ;
+}
+
+
+
+.dishTitle{
+  display:flex;
+}
+
+.test{ 
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  
+}
+
+#finished{
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+
+ @media only screen and (max-width: 1080px) {
+  .MobileSwitchFlexToCol {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+#mgmtArea{
+  padding: 20px;
+}
+
+
+.updateDishForm{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1080px) {
+  .updateDishForm {
+    flex-direction: column;
+  }
+}
+
+.updateDishButtonWrapper{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+
+}
+@media only screen and (max-width: 1080px) {
+  .updateDishButtonWrapper {
+    flex-direction: column;
+  }
+}
+
+.updateDishButtonWrapper div{
+  padding: 10px;
+}
+
+.cColumnUpdateDish{
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+  align-items: center;
+}
+.rightColumnUpdateDish{
+  margin: 20px;
+}
+
+
+
+.statOrderEntry{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.customerInfoList{
+  display: flex;
+  flex-direction: column;
+}
+.customerInfoItem{
+  display: flex;
+  padding: 10px 0;
+}
+.customerInfoItem div{
+  padding-left: 10px;
+}
+
+
+
+#aboutPage{
+  display: flex;
+  flex-direction: column;
+}
+#aboutPage a{
+  cursor: pointer;
+}
