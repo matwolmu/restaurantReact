@@ -18,7 +18,8 @@ function About() {
   return (
     <div className="container wrapToCenter" id="aboutPage">
       <div>
-          <img src={Diagram} alt="Logo" style={{marginTop: "20px"}} />
+          <img src={Diagram} alt="Logo" style={{marginTop: "20px"}} className="show-on-medium-and-up hide-on-small-only"  />
+          <img src={Diagram} alt="Logo" style={{marginTop: "20px", width: "400px"}} className="show-on-small hide-on-med-and-up"  />
       </div>
       <div>
         <p>Github Frontend: <a href="https://github.com/matwolmu/restaurantFrontend.git" target="_blank" >https://github.com/matwolmu/restaurantFrontend.git</a></p>
