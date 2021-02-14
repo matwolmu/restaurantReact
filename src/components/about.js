@@ -22,8 +22,9 @@ function About() {
           <img src={Diagram} alt="Logo" style={{marginTop: "20px", width: "400px"}} className="show-on-small hide-on-med-and-up"  />
       </div>
       <div>
-        <p>Github Frontend: <a href="https://github.com/matwolmu/restaurantFrontend.git" target="_blank" >https://github.com/matwolmu/restaurantFrontend.git</a></p>
-        <p>Github Backend:  <a href="https://github.com/matwolmu/restaurantBackendJS"  target="_blank" >https://github.com/matwolmu/restaurantBackendJS</a></p>
+        <p>Github Frontend: <a href="https://github.com/matwolmu/restaurantReact/" target="_blank" >https://github.com/matwolmu/restaurantFrontend</a></p>
+        
+        <p>Github Backend:  <a href="https://github.com/matwolmu/restaurantBackendJS/"  target="_blank" >https://github.com/matwolmu/restaurantBackendJS</a></p>
       </div>
         
     </div>
